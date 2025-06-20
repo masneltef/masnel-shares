@@ -70,7 +70,7 @@ const techQuotes = [
 export default function RandomQuotePage() {
   const [currentQuote, setCurrentQuote] = useState(techQuotes[0])
   const [isAnimating, setIsAnimating] = useState(false)
-  const [favorites, setFavorites] = useState([])
+  const [favorites, setFavorites] = useState<number[]>([])
   const [isClient, setIsClient] = useState(false)
 
   useEffect(() => {
@@ -148,7 +148,7 @@ export default function RandomQuotePage() {
           </p>
 
           <div style={{ backgroundColor: '#F9FAFB', borderRadius: '16px', padding: '32px', border: '1px solid #F3F4F6', position: 'relative', overflow: 'hidden', marginBottom: '32px' }}>
-            <div style={{ position: 'absolute', top: '16px', left: '24px', fontSize: '64px', color: '#DBEAFE', fontFamily: 'serif' }}>"</div>
+            <div style={{ position: 'absolute', top: '16px', left: '24px', fontSize: '64px', color: '#DBEAFE', fontFamily: 'serif' }}>&ldquo;</div>
             
             <div style={{ 
               transition: 'all 0.3s ease', 
@@ -200,11 +200,11 @@ export default function RandomQuotePage() {
             <h3 style={{ fontSize: '18px', fontWeight: '500', color: '#1E3A8A', marginBottom: '12px' }}>Feeling Inspired?</h3>
             <p style={{ color: '#1E40AF', marginBottom: '16px', lineHeight: '1.6' }}>
               These quotes remind me to stay woke and keep on building. 
-              Want to see what I've been working on?
+              Want to see what I&apos;ve been working on?
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px', justifyContent: 'center' }}>
               <Link href="/contact" style={{ color: '#D2691E', textDecoration: 'none' }}>
-                Let's Chat
+                Let&apos;s Chat
               </Link>
             </div>
           </div>
