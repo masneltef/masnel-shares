@@ -16,7 +16,7 @@ export default function LinksPage() {
     {
       title: 'Inclusive Design Toolkit',
       url: 'https://inclusivedesigntoolkit.com',
-      description: 'Microsoft\'s comprehensive guide to inclusive design principles'
+      description: 'Microsoft&apos;s comprehensive guide to inclusive design principles'
     },
     {
       title: 'Deque Accessibility Blog',
@@ -38,7 +38,7 @@ export default function LinksPage() {
     {
       title: 'Google AI Blog',
       url: 'https://ai.googleblog.com',
-      description: 'Latest research and developments from Google\'s AI teams'
+      description: 'Latest research and developments from Google&apos;s AI teams'
     },
     {
       title: 'OpenAI Blog',
@@ -95,7 +95,7 @@ export default function LinksPage() {
       description: 'Research and resources for autism spectrum conditions'
     },
     {
-      title: 'Thinking Person\'s Guide to Autism',
+      title: 'Thinking Person&apos;s Guide to Autism',
       url: 'https://thinkingautismguide.com',
       description: 'Evidence-based information about autism from multiple perspectives'
     },
@@ -119,7 +119,7 @@ export default function LinksPage() {
     {
       title: 'Food and Agriculture Organization (FAO)',
       url: 'https://www.fao.org/digital-agriculture/en',
-      description: 'UN\'s digital agriculture initiatives and sustainable farming'
+      description: 'UN&apos;s digital agriculture initiatives and sustainable farming'
     },
 
     // Drone Technology
@@ -214,7 +214,7 @@ export default function LinksPage() {
       description: 'Official platform for French tech ecosystem and innovation'
     },
     {
-      title: 'L\'Usine Digitale',
+      title: 'L&apos;Usine Digitale',
       url: 'https://www.usine-digitale.fr',
       description: 'French digital industry news and trends'
     }
@@ -234,8 +234,8 @@ export default function LinksPage() {
     'French Tech & Culture'
   ]
 
-  const getCategoryLinks = (category) => {
-    const categoryMap = {
+  const getCategoryLinks = (category: string) => {
+    const categoryMap: { [key: string]: typeof links } = {
       'Accessibility & Inclusive Design': links.slice(0, 5),
       'Machine Learning & AI': links.slice(5, 10),
       'African Tech & Innovation': links.slice(10, 14),
@@ -300,7 +300,7 @@ export default function LinksPage() {
             <p style={{ color: '#6B7280', marginBottom: '16px', lineHeight: '1.6', fontSize: '14px' }}>
               These resources continuously shape my perspective on technology, accessibility, and innovation. 
               If you know of other great blogs or websites that align with inclusive design, African tech, 
-              or cutting-edge research, I'd love to discover them!
+              or cutting-edge research, I&apos;d love to discover them!
             </p>
             <Link href="/contact" style={{ padding: '8px 16px', backgroundColor: '#3B82F6', color: 'white', textDecoration: 'none', borderRadius: '6px', fontSize: '14px', fontWeight: '500' }}>
               Share a Resource
