@@ -85,9 +85,6 @@ export default function ResumePage() {
 
        </main>
      </div>
-     
-    // not sure why this is needed, but it seems to be a common pattern in Next.js apps
-
      <div style={{ position: 'absolute', top: '32px', left: '32px' }}>
        <Link href="/" style={{ color: '#D2691E', textDecoration: 'none', fontSize: '14px' }}>
          ← Index
