@@ -18,8 +18,8 @@ export default function ResearchPage() {
             </p>
             
             <p style={{ color: '#6B7280', marginBottom: '16px', lineHeight: '1.6' }}>
-              Currently, I'm working with Prof. Jema Ndibwile at Carnegie Mellon to create gamified cybersecurity 
-              training that actually works for everyone — including people with autism and diverse cultural backgrounds. 
+              Currently, I'm working under the supervision of Prof. Jema Ndibwile at Carnegie Mellon to create gamified cybersecurity 
+              training that actually works for everyone, including people with autism and diverse cultural backgrounds. 
               Turns out, making security training both fun and accessible is harder than convincing people to use 
               strong passwords, but infinitely more rewarding.
             </p>
@@ -32,7 +32,7 @@ export default function ResearchPage() {
             </p>
             
             <p style={{ color: '#6B7280', marginBottom: '16px', lineHeight: '1.6' }}>
-              Beyond my current work, I've explored customer classification using machine learning — basically teaching 
+              Beyond my current work, I've explored customer classification using machine learning basically teaching 
               computers to understand people better than some humans do. Achieved 85% accuracy, which I'm told is pretty 
               good (though I'm still working on understanding my own preferences half the time).
             </p>

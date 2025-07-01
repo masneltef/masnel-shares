@@ -29,7 +29,7 @@ export default function HomePage() {
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '4px' }}>
               <span style={{ width: '4px', height: '4px', backgroundColor: '#9CA3AF', borderRadius: '50%', marginRight: '12px', display: 'inline-block' }}></span>
               <Link href="/projects" style={{ color: '#D2691E', textDecoration: 'none' }}>
-                Technical Projects
+                Projects
               </Link>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '4px' }}>
@@ -66,7 +66,7 @@ export default function HomePage() {
       {/* Footer - Aligned with main content at bottom */}
       <footer style={{ width: '100%', maxWidth: '600px', padding: '0 32px', paddingBottom: '32px' }}>
         <p style={{ fontSize: '12px', color: '#9CA3AF', fontStyle: 'italic' }}>
-          © Yvan Masnel Tefiang, 2024. Some Rights Reserved.
+          © Yvan Masnel Tefiang, 2025. Some Rights Reserved.
         </p>
       </footer>
     </div>

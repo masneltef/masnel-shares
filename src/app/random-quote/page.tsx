@@ -118,7 +118,7 @@ export default function RandomQuotePage() {
   if (!isClient) {
     return (
       <div style={{ minHeight: '100vh', backgroundColor: 'white', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ width: '100%', maxWidth: '700px', padding: '0 32px' }}>
+        <div style={{ width: '100%', maxWidth: '700px', padding: '80px 32px 32px 32px' }}>
           <main>
             <h1 style={{ fontSize: '36px', fontWeight: 'normal', color: '#374151', marginBottom: '24px', fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
               Tech Quote Generator
@@ -137,7 +137,7 @@ export default function RandomQuotePage() {
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: 'white', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ width: '100%', maxWidth: '700px', padding: '0 32px' }}>
+      <div style={{ width: '100%', maxWidth: '700px', padding: '80px 32px 32px 32px' }}>
         <main>
           <h1 style={{ fontSize: '36px', fontWeight: 'normal', color: '#374151', marginBottom: '16px', fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
             Quote Generator
