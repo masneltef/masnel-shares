@@ -2,10 +2,6 @@
 
 A clean, minimal personal website built with Next.js, showcasing my work in accessible technology, research, and cross-cultural innovation.
 
-## 🚀 Live Site
-
-Visit the live site at [masnelshares.org](https://masnelshares.org)
-
 ## ✨ Features
 
 - **Clean Design**: Minimalist aesthetic inspired by academic and developer portfolios
@@ -49,7 +45,7 @@ This site reflects my belief that technology should be:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/masnel-shares.git
+git clone https://github.com/masneltef/masnel-shares.git
 
 # Navigate to the project directory
 cd masnel-shares
